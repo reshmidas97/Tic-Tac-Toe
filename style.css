@@ -1,0 +1,80 @@
+body
+{
+    background : #222;
+}
+nav
+{
+    background: linear-gradient(to right, #ff8b3d, #ffb347);
+    height: 100px;
+    max-height: 100px;
+    margin: auto;
+}
+
+nav h2
+{
+    font-family: 'Roboto', 'sans-serif';
+    color : #222;
+    text-align: center;
+    font-size: 6vw;
+    padding: 20px;
+}
+
+.space
+{
+    height : 60px;
+    background: #222;
+}
+
+.gameContainer
+{
+    height : 430px;
+    width : 430px;
+    margin :auto;
+
+}
+
+.container
+{
+    display : grid;
+    grid-template-rows : repeat(3, 10vw);
+    grid-template-columns : repeat(3, 10vw);
+    font-family: 'Roboto', 'sans-serif';
+    margin: auto;
+    justify-content: center;
+}
+
+.box
+{
+    border: 2px solid whitesmoke;
+    color : #fff;
+    font-size: 7vw;
+    cursor: pointer;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:hover
+{
+    background-color: #404040;
+}
+
+.br-0
+{
+    border-right: 0;
+}
+
+.bl-0
+{
+    border-left: 0;
+}
+
+.bt-0
+{
+    border-top: 0;
+}
+
+.bb-0
+{
+    border-bottom: 0;
+}
